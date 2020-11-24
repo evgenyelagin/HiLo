@@ -9,5 +9,6 @@ public class HiLo {
         Scanner scan = new Scanner(System.in);
         // генерация случайного числа через класс Мас.рандом - фишка в том, что от 0.0 до 0.9, поэтому и * на 100
         int theNumber = (int) (Math.random() * 100 + 1);
+        System.out.println(theNumber); // проверка генерации случайного числа чере соут
     }
 }
