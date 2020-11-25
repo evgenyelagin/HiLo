@@ -30,11 +30,11 @@ public class HiLo {
             // делаем условия
             if (guess < theNumber) {
                 System.out.println(guess + " меньше числа. Попробуй еще раз");
+            } else if (guess > theNumber) {
+                System.out.println(guess + " больше числа. Попробуй еще разок");
+            } else {
+                System.out.println("Ты победил!!!");
             }
-            else if (guess > theNumber) {
-                System.out.println(guess + " больше числа. Попробуй еще ");
-            }
-
         }
     }
 }
