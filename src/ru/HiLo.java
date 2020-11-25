@@ -43,6 +43,8 @@ public class HiLo {
             playAgain = scan.next(); // scan.next сканирует ввод с клавиатуры символов и записывает в playAgain
         } while (playAgain.equalsIgnoreCase("Yes")); /* сравнивает данную строку с другой строкой,
         игнорируя регистр. */
+        System.out.println("Спасибо за игру!!! До встречи!!!");
+        scan.close(); // закрываем соединение с клавиатурой - чтобы в теории не переполнить память.
     }
 }
 
