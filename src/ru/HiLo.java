@@ -7,7 +7,7 @@ public class HiLo {
     public static void main(String[] args) {
         // создаем класс сканер - для принятия значений с клавиатуры
         Scanner scan = new Scanner(System.in);
-        String playAgain = " ";
+        String playAgain;
         int numberOfTries = 0;
         // делаем еще один цикл ду-вайл - чтобы можно было повторно сыграть.
         do {
@@ -17,7 +17,7 @@ public class HiLo {
              изменяет тип с десятичной дроби в целое число, отбрасывая десятки */
             int theNumber = (int) (Math.random() * 200 - 100 + 1);
             // проверка генерации случайного числа чере вывод на экран
-            System.out.println(theNumber);
+            // System.out.println(theNumber);
             // объявление и инициализация переменной
             int guess = 0;
             // System.out.println("Введи число от 1 до 100 и нажми Enter");
